@@ -1,4 +1,3 @@
-/* fontes */
 body {
     margin: 0;
     padding: 0;
@@ -87,127 +86,23 @@ body {
     display: block;
 }
 
-.lua1{
-    margin-top: 100px;
-}
-.lua2{
-    margin-top: 60px;
-}
-
-.capa {
+.lisaBan {
     width: 100%;
-    height: 100vh;
-    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.aboutMe { 
+.trimestres {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100%;
-}
-
-.aboutMe img {
-    width: 16%;
-    margin-top: 4%;
-    margin-right: 5%;
-}
-
-.aboutMe h1 {
-    font-family: 'Open Sans';
-    text-transform: uppercase;
-    color: #832b2b;
-    font-size: 42px;
-    letter-spacing: 0.2em;
-    text-align: center;
-}
-
-.aboutMe p {
-    font-family: 'Raleway';
-    font-size: 24px;
-    text-align: justify;
-}
-
-.texto {
-    width: 80%;
-}
-
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10%;
-    
-}
-
-.container2 img {
-    width: 24%;
-    height: auto;
-
-}
-
-.rodape {
-    width: 100%;
-    height: 160px;
-    background-color: #832b2b;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    bottom: 0;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-}
-
-
-.contato {
-    width: 25%;
-    margin-left: auto;
-    margin-right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-.infosdeContato {
-    display: flex;
-    flex-direction: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-.contato img {
-    width: 13%;
-}
-
-.infosContato {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 15% ;
-    color: #f9f9f9;
-}
-
-.container3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5% 0 3% 0;
-    gap: 10px;
-    width: 100%;
-}
-
-.botao3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 3%;
 }
 
 button {
-    background-color: #551010;
+    background-color: #832b2b;
     color: #f9f9f9;
     border: none;
     border-radius: 50px;
@@ -218,10 +113,8 @@ button {
     font-size: 24px;
     margin: 2%;
     white-space: nowrap;
-
 }
 
 button:hover {
-    background-color: #300303;
+    background-color: #460a0a;
 }
-
